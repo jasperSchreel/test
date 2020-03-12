@@ -1,5 +1,7 @@
 test:
   stage: test
+  tags:
+    - local
   only:
     - master
   script:
